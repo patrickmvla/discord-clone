@@ -6,7 +6,7 @@ import {
 
 // Define the routes that need protection
 const isProtectedRoute = createRouteMatcher([
-  '/dashboard(.*)',
+  '/(.*)',
 ]);
 
 // Define the routes that are public and should not be protected
